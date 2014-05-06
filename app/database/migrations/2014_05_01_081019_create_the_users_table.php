@@ -39,6 +39,7 @@ class CreateTheUsersTable extends Migration {
 	{
         //destroy the users table
 		Schema::drop('users');
+        
 	}
 
 }
