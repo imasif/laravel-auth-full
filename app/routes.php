@@ -22,6 +22,16 @@ Route::get('/user/{username}', [
     'uses'  =>  'ProfileController@user'
 ]);
 
+Route::group(array('domain' => '{username}.centrino.com'), function()
+{
+
+    Route::get('/user/{username}', [
+            'as'    =>  'profile-user',
+            'uses'  =>  'ProfileController@user'
+    ]);
+
+});
+
 /*
 *  Authenticated group
 */

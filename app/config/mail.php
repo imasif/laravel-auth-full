@@ -54,7 +54,7 @@ return array(
 	|
 	*/
 
-	'from' => array('address' => 'asif@gdastudio.org', 'name' => 'Auth'),
+	'from' => array('address' => 'centrinoschool@gmail.com', 'name' => 'Laravel-Auth'),
 
 	/*
 	|--------------------------------------------------------------------------
@@ -80,7 +80,7 @@ return array(
 	|
 	*/
 
-	'username' => 'asif@gdastudio.org',
+	'username' => 'centrinoschool@gmail.com',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -93,7 +93,7 @@ return array(
 	|
 	*/
 
-	'password' => 'gp8801718083408',
+	'password' => 'centrino3408',
 
 	/*
 	|--------------------------------------------------------------------------
